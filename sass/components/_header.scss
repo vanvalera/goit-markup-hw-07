@@ -7,6 +7,9 @@
 }
 .header-div__nav {
   align-items: center;
+  & li:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 .header-div__logo {
   padding-top: 24px;
@@ -26,9 +29,7 @@
 .header-div__nav > ul {
   margin-left: 93px;
 }
-.header-div__nav li:not(:last-child) {
-  margin-right: 50px;
-}
+
 .header-div__link {
   padding-top: 32px;
   padding-bottom: 31px;
@@ -40,6 +41,10 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   transition: var(--main-transition);
+  &:hover,
+  &:focus {
+    color: var(--accent-header-color);
+  }
 }
 .header-nav_list {
   margin-right: 50px;
@@ -60,12 +65,10 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   transition: var(--main-transition);
-}
-.header-div__link:hover,
-.header-div__link:focus,
-.header-nav__tel:focus,
-.header-nav__tel:hover {
-  color: var(--accent-header-color);
+  &:focus,
+  &:hover {
+    color: var(--accent-header-color);
+  }
 }
 .header-nav__icon {
   height: 16px;

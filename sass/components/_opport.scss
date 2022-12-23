@@ -1,8 +1,8 @@
-.opportunity > li:not(:last-child) {
-  margin-right: 30px;
-}
 .opportunity {
   margin: 0px auto;
+  & > li:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .opportunity > li {
   max-width: 270px;

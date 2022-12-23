@@ -38,10 +38,10 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-style: none;
-}
-.hero__button:hover,
-.hero__button:focus {
-  background: var(--accent-body-color);
-  color: var(--primary-body-color);
-  transition: var(--main-transition);
+  &:hover,
+  &:focus {
+    background: var(--accent-body-color);
+    color: var(--primary-body-color);
+    transition: var(--main-transition);
+  }
 }
