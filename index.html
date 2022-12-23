@@ -18,39 +18,39 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Шапка -->
     <header class="header">
       <div class="conteiner header-div">
-        <nav class="flex nav-header">
-          <a href="./index.html" class="logo"> <span class="web">Web</span>Studio </a>
+        <nav class="flex header-div__nav">
+          <a href="./index.html" class="header-div__logo"> <span class="web">Web</span>Studio </a>
           <ul class="list flex">
             <li>
-              <a href="./index.html" class="header-link active">Студія</a>
+              <a href="./index.html" class="header-div__link active">Студія</a>
             </li>
             <li>
-              <a href="./portfolio.html" class="header-link">Портфоліо</a>
+              <a href="./portfolio.html" class="header-div__link">Портфоліо</a>
             </li>
             <li>
-              <a href="/" class="header-link">Контакти</a>
+              <a href="/" class="header-div__link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="list flex head-ul">
+        <ul class="list flex header-nav">
           <!-- Посилання на почту -->
-          <li class="li-header">
-            <a href="mailto:info@devstudio.com" class="header-tel"
-              ><svg class="header-icon">
+          <li class="header-nav_list">
+            <a href="mailto:info@devstudio.com" class="header-nav__tel"
+              ><svg class="header-nav__icon">
                 <use href="./images/icons.svg#icon-mail"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <!-- Посилання на телефон -->
           <li>
-            <a href="tel:+380961111111" class="header-tel"
-              ><svg class="header-icon">
+            <a href="tel:+380961111111" class="header-nav__tel"
+              ><svg class="header-nav__icon">
                 <use href="./images/icons.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -63,11 +63,11 @@
       <!-- Секція с кнопкой -->
       <section class="hero">
         <div class="conteiner">
-          <h1 class="hero-tittle">
+          <h1 class="hero__tittle">
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button type="button" class="hero-button" data-modal-open>Замовити послугу</button>
+          <button type="button" class="hero__button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <!-- Секція Особливості -->
@@ -76,8 +76,8 @@
           <h2 hidden>Особливості</h2>
           <ul class="list flex opportunity">
             <li>
-              <div class="svg-opportunity">
-                <svg class="svg-icon-oppor">
+              <div class="oppotunity__icon">
+                <svg class="oppotunity__svg">
                   <use href="./images/icons.svg#icon-Sputnik"></use>
                 </svg>
               </div>
@@ -87,8 +87,8 @@
               </p>
             </li>
             <li>
-              <div class="svg-opportunity">
-                <svg class="svg-icon-oppor">
+              <div class="oppotunity__icon">
+                <svg class="oppotunity__svg">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -98,8 +98,8 @@
               </p>
             </li>
             <li>
-              <div class="svg-opportunity">
-                <svg class="svg-icon-oppor">
+              <div class="oppotunity__icon">
+                <svg class="oppotunity__svg">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -109,8 +109,8 @@
               </p>
             </li>
             <li>
-              <div class="svg-opportunity">
-                <svg class="svg-icon-oppor">
+              <div class="oppotunity__icon">
+                <svg class="oppotunity__svg">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
@@ -126,7 +126,7 @@
       <section class="section what-we-do">
         <div class="conteiner">
           <h2 class="tittle-section">Чим ми займаємося</h2>
-          <ul class="list flex we-do">
+          <ul class="list flex what-we-do__ul">
             <li>
               <div class="index-overlay">
                 <img
@@ -170,149 +170,149 @@
         </div>
       </section>
       <!-- Секція Наша Команда -->
-      <section class="hero-team section">
+      <section class="team section">
         <div class="conteiner">
-          <h2 class="tittle-team">Наша команда</h2>
+          <h2 class="team-tittle">Наша команда</h2>
           <ul class="list flex">
-            <li class="list-worker">
+            <li class="team-worker">
               <img
                 src="./images/Product-designer.jpg"
                 alt="Дизайнер продукту"
                 width="270"
                 height="260"
               />
-              <h3 class="tittle-team-worker">Ігор Дем'яненко</h3>
+              <h3 class="team-worker__tittle">Ігор Дем'яненко</h3>
               <p lang="en" class="tittle-worker-text">Product Designer</p>
               <ul class="flex list">
-                <li class="Igor Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                <li class="Developer Developer__Igor">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-instagram"></use></svg
                   ></a>
                 </li>
                 <li class="Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-twitter"></use></svg
                   ></a>
                 </li>
                 <li class="Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-facebook"></use></svg
                   ></a>
                 </li>
                 <li class="Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-linkedin"></use></svg
                   ></a>
                 </li>
               </ul>
             </li>
-            <li class="list-worker">
+            <li class="team-worker">
               <img
                 src="./images/Frontend-developer.jpg"
                 alt="Фронтенд розробник"
                 width="270"
                 height="260"
               />
-              <h3 class="tittle-team-worker">Ольга Рєпіна</h3>
+              <h3 class="team-worker__tittle">Ольга Рєпіна</h3>
               <p lang="en" class="tittle-worker-text">Frontend Developer</p>
               <ul class="flex list">
-                <li class="Igor Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                <li class="Developer Developer__Igor">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-instagram"></use></svg
                   ></a>
                 </li>
                 <li class="Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-twitter"></use></svg
                   ></a>
                 </li>
                 <li class="Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-facebook"></use></svg
                   ></a>
                 </li>
                 <li class="Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-linkedin"></use></svg
                   ></a>
                 </li>
               </ul>
             </li>
-            <li class="list-worker">
+            <li class="team-worker">
               <img
                 src="./images/Marketing-company.jpg"
                 alt="Головний Маркетолог"
                 width="270"
                 height="260"
               />
-              <h3 class="tittle-team-worker">Микола Тарасов</h3>
+              <h3 class="team-worker__tittle">Микола Тарасов</h3>
               <p lang="en" class="tittle-worker-text">Marketing</p>
               <ul class="flex list our-team-icn">
-                <li class="Igor Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                <li class="Developer Developer__Igor">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-instagram"></use></svg
                   ></a>
                 </li>
                 <li class="Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-twitter"></use></svg
                   ></a>
                 </li>
                 <li class="Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-facebook"></use></svg
                   ></a>
                 </li>
                 <li class="Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-linkedin"></use></svg
                   ></a>
                 </li>
               </ul>
             </li>
-            <li class="list-worker">
+            <li class="team-worker">
               <img
                 src="./images/UI-designer.jpg"
                 alt="Дизайнер інтерфейсу"
                 width="270"
                 height="260"
               />
-              <h3 class="tittle-team-worker">Михайло Єрмаков</h3>
+              <h3 class="team-worker__tittle">Михайло Єрмаков</h3>
               <p lang="en" class="tittle-worker-text">UI Designer</p>
               <ul class="flex list">
-                <li class="Igor Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                <li class="Developer Developer__Igor">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-instagram"></use></svg
                   ></a>
                 </li>
                 <li class="Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-twitter"></use></svg
                   ></a>
                 </li>
                 <li class="Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-facebook"></use></svg
                   ></a>
                 </li>
                 <li class="Developer">
-                  <a href="/" class="icons-list-team"
-                    ><svg class="icon-our-team">
+                  <a href="/" class="Developer__icons"
+                    ><svg class="Developer__svg">
                       <use href="./images/icons.svg#icon-linkedin"></use></svg
                   ></a>
                 </li>
@@ -325,50 +325,50 @@
         <div class="conteiner">
           <h2 class="tittle-clients">Постійні клієнти</h2>
           <ul class="flex list">
-            <li class="flex-list-li">
-              <div class="icon-clients">
-                <a href="" class="link-svg-clients"
-                  ><svg class="svg-clients">
+            <li class="regular-customers">
+              <div>
+                <a href="" class="regular-customers__link"
+                  ><svg class="regular-customers__svg">
                     <use href="./images/icons.svg#icon-yaco"></use></svg
                 ></a>
               </div>
             </li>
-            <li class="flex-list-li">
+            <li class="regular-customers">
               <div>
-                <a href="" class="link-svg-clients"
-                  ><svg class="svg-clients">
+                <a href="" class="regular-customers__link"
+                  ><svg class="regular-customers__svg">
                     <use href="./images/icons.svg#icon-Union"></use></svg
                 ></a>
               </div>
             </li>
-            <li class="flex-list-li">
+            <li class="regular-customers">
               <div>
-                <a href="" class="link-svg-clients"
-                  ><svg class="svg-clients">
+                <a href="" class="regular-customers__link"
+                  ><svg class="regular-customers__svg">
                     <use href="./images/icons.svg#icon-company"></use></svg
                 ></a>
               </div>
             </li>
-            <li class="flex-list-li">
+            <li class="regular-customers">
               <div>
-                <a href="" class="link-svg-clients"
-                  ><svg class="svg-clients">
+                <a href="" class="regular-customers__link"
+                  ><svg class="regular-customers__svg">
                     <use href="./images/icons.svg#icon-foster-peters"></use></svg
                 ></a>
               </div>
             </li>
-            <li class="flex-list-li">
+            <li class="regular-customers">
               <div>
-                <a href="" class="link-svg-clients"
-                  ><svg class="svg-clients">
+                <a href="" class="regular-customers__link"
+                  ><svg class="regular-customers__svg">
                     <use href="./images/icons.svg#icon-brand"></use></svg
                 ></a>
               </div>
             </li>
-            <li class="flex-list-li">
+            <li class="regular-customers">
               <div>
-                <a href="" class="link-svg-clients"
-                  ><svg class="svg-clients">
+                <a href="" class="regular-customers__link"
+                  ><svg class="regular-customers__svg">
                     <use href="./images/icons.svg#icon-company-tag-line"></use></svg
                 ></a>
               </div>
@@ -441,49 +441,49 @@
     <footer class="basement">
       <div class="conteiner flex">
         <div>
-          <a href="https://vanvalera.github.io/goit-markup-hw-02/index.html" class="logo-footer">
+          <a href="https://vanvalera.github.io/goit-markup-hw-02/index.html" class="basement__logo">
             <span class="web">Web</span>Studio
           </a>
-          <address class="style-address">
+          <address class="adress-style">
             <ul class="list">
-              <li class="item-footer">
-                <a href="https://goo.gl/maps/cJ9QzEwfVTvkRfvY8" class="list-address"
+              <li class="adress-style__item">
+                <a href="https://goo.gl/maps/cJ9QzEwfVTvkRfvY8" class="adress-style__link"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="item-footer">
-                <a href="mailto:info@devstudio.com" class="list-tel">info@devstudio.com</a>
+              <li class="adress-style__item">
+                <a href="mailto:info@devstudio.com" class="adress-style__tel">info@devstudio.com</a>
               </li>
-              <li class="item-footer">
-                <a href="tel:+380961111111" class="list-tel">+38 096 111 11 11</a>
+              <li class="adress-style__item">
+                <a href="tel:+380961111111" class="adress-style__tel">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div class="footer-social">
-          <h3 class="tittle-add">приєднуйтесь</h3>
+          <h3 class="footer-social__tittle">приєднуйтесь</h3>
           <ul class="flex list">
             <li class="Developer">
-              <a href="/" class="icons-list-team borders"
-                ><svg class="icon-our-team">
+              <a href="/" class="Developer__icons Developer__borders"
+                ><svg class="Developer__svg">
                   <use href="./images/icons.svg#icon-instagram"></use></svg
               ></a>
             </li>
             <li class="Developer">
-              <a href="/" class="icons-list-team borders"
-                ><svg class="icon-our-team">
+              <a href="/" class="Developer__icons Developer__borders"
+                ><svg class="Developer__svg">
                   <use href="./images/icons.svg#icon-twitter"></use></svg
               ></a>
             </li>
             <li class="Developer">
-              <a href="/" class="icons-list-team borders"
-                ><svg class="icon-our-team">
+              <a href="/" class="Developer__icons Developer__borders"
+                ><svg class="Developer__svg">
                   <use href="./images/icons.svg#icon-facebook"></use></svg
               ></a>
             </li>
             <li class="Developer">
-              <a href="/" class="icons-list-team borders"
-                ><svg class="icon-our-team">
+              <a href="/" class="Developer__icons Developer__borders"
+                ><svg class="Developer__svg">
                   <use href="./images/icons.svg#icon-linkedin"></use></svg
               ></a>
             </li>
